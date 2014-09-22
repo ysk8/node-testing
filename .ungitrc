@@ -1,7 +1,0 @@
-cd ~
-touch .ungitrc
-nano .ungitrc
-{
-    "bugtracking": false,
-    "logRESTRequests": false    
-}
