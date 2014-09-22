@@ -6,7 +6,7 @@
 * To change this template use Tools | Templates.
 */
 var net = require('net');
-var HOST = 'http://design-pony.codio.io';
+var HOST = 'http://stark-temple-6874.herokuapp.com';
 var PORT = 3000;
 // Create a server instance, and chain the listen function to it
 // The function passed to net.createServer() becomes the event handler for the 'connection' event
