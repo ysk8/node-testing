@@ -29,11 +29,11 @@ function broadcast(message, sender) {
 }
 
 function joined(name) {
-  broadcast("I've joined the chat!", name)
+  broadcast("I've joined the App!", name)
 }
 
 function left(name) {
-  broadcast(name + " left the chat.", name);
+  broadcast(name + " left the App.", name);
   delete peeps[name];
 }
 
